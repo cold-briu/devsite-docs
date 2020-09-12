@@ -315,6 +315,7 @@ Para activarlo, solo debes configurar como `true` el atributo _`binary_mode`_ de
 ### Vigencia de preferencias
 
 Si se quiere habilitar el pago de una preferencia con un tiempo de duración determinado, se puede activar un periodo de vigencia o concluir directamente con los siguientes atributos:
+Nota: las fechas deben estar en formato ISO blablsabla porque de lo contrario te vamos a enviar un regex con el que validamos la fecha.
 
 ```json
 "expires": true,
